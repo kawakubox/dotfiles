@@ -1,3 +1,5 @@
 [user]
 	name = kawakubox
 	email = shigefumi.kawakubo@gmail.com
+[credential]
+	helper = osxkeychain
