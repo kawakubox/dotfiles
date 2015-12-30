@@ -1,3 +1,4 @@
+tap 'caskroom/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/versions'
 brew 'git'
