@@ -6,3 +6,5 @@ brew 'mysql56'
 brew 'rbenv'
 brew 'ruby-build'
 brew 'tmux'
+
+cask 'google-chrome'
