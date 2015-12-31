@@ -8,3 +8,4 @@ brew 'ruby-build'
 brew 'tmux'
 
 cask 'google-chrome'
+cask 'google-japanese-ime'
