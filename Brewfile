@@ -7,6 +7,7 @@ brew 'rbenv'
 brew 'ruby-build'
 brew 'tmux'
 
+cask '1password'
 cask 'datagrip'
 cask 'google-chrome'
 cask 'google-japanese-ime'
