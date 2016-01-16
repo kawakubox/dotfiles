@@ -1,3 +1,6 @@
+##### auto_cd
+setopt AUTO_CD
+
 ##### vcs
 autoload -Uz vcs_info
 
