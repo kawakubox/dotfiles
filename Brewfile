@@ -10,6 +10,7 @@ brew 'phantomjs'
 brew 'rbenv'
 brew 'ruby-build'
 brew 'tmux'
+brew 'zsh'
 
 cask '1password'
 cask 'bettertouchtool'
