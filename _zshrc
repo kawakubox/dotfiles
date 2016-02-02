@@ -19,3 +19,6 @@ PS1='%F{magenta}[%F{green}%n%F{magenta}] %F{yellow}%3~ ${vcs_info_msg_0_}%f%# '
 
 ##### alias
 alias be='bundle exec'
+
+##### other
+eval "$(rbenv init -)"
