@@ -12,3 +12,6 @@ ln -s `pwd $0`/_gitconfig ~/.gitconfig
 
 unlink ~/.zshrc
 ln -s `pwd $0`/_zshrc ~/.zshrc
+
+unlink ~/.tmux.conf
+ln -s `pwd $0`/_tmux.conf ~/.tmux.conf
