@@ -6,4 +6,5 @@
 [alias]
    b = branch
    co = checkout
+   d = diff
    s = status
