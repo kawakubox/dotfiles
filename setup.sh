@@ -10,6 +10,9 @@ ln -s `pwd $0`/_gemrc ~/.gemrc
 unlink ~/.gitconfig
 ln -s `pwd $0`/_gitconfig ~/.gitconfig
 
+unlink ~/.vimrc
+ln -s `pwd $0`/_vimrc ~/.vimrc
+
 unlink ~/.zshrc
 ln -s `pwd $0`/_zshrc ~/.zshrc
 
