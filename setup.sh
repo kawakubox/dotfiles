@@ -13,6 +13,9 @@ ln -s `pwd $0`/_gitconfig ~/.gitconfig
 unlink ~/.vimrc
 ln -s `pwd $0`/_vimrc ~/.vimrc
 
+unlink ~/.zshenv
+ln -s `pwd $0`/_zshenv ~/.zshenv
+
 unlink ~/.zshrc
 ln -s `pwd $0`/_zshrc ~/.zshrc
 
