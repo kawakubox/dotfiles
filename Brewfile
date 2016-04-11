@@ -15,6 +15,7 @@ brew 'ruby-build'
 brew 'tig'
 brew 'tmux'
 brew 'tree'
+brew 'vim'
 brew 'zsh'
 
 cask '1password'

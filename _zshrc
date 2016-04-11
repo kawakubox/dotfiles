@@ -20,6 +20,7 @@ PS1='%F{magenta}[%F{green}%n%F{magenta}] %F{yellow}%3~ ${vcs_info_msg_0_}%f%# '
 ##### alias
 alias be='bundle exec'
 alias ll='ls -l'
+alias vi='vim'
 
 ##### path
 path=(/usr/local/Cellar/neo4j/2.3.2/libexec/bin/ $path)
