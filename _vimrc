@@ -17,3 +17,6 @@ if dein#check_install()
 endif
 
 set number
+set tabstop=2
+set shiftwidth=2
+set expandtab
