@@ -8,6 +8,8 @@ call dein#begin(expand('/Users/kawakubox/.vim/dein'))
 
 call dein#add('Shougo/dein.vim')
 
+call dein#add('scrooloose/nerdtree')
+
 call dein#end()
 
 filetype plugin indent on
