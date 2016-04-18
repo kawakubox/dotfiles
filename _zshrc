@@ -31,4 +31,7 @@ path=(/usr/local/Cellar/neo4j/2.3.2/libexec/bin/ $path)
 ##### other
 tabs -4
 
+##### Env
+export GPG_TTY=`tty`
+
 eval "$(rbenv init -)"
