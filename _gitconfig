@@ -9,3 +9,7 @@
    d = diff
    dc = diff --cached
    s = status
+[commit]
+   gpgsign = true
+[gpg]
+   program = gpg2
