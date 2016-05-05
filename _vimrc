@@ -9,6 +9,7 @@ call dein#begin(expand('/Users/kawakubox/.vim/dein'))
 call dein#add('Shougo/dein.vim')
 
 call dein#add('scrooloose/nerdtree')
+call dein#add('slim-template/vim-slim')
 
 call dein#end()
 
