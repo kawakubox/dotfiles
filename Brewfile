@@ -21,6 +21,7 @@ brew 'zsh'
 
 cask '1password'
 cask 'bettertouchtool'
+cask 'clipy'
 cask 'datagrip'
 cask 'google-chrome'
 cask 'google-japanese-ime'
