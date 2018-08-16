@@ -1,6 +1,6 @@
 tap 'caskroom/cask'
 tap 'homebrew/bundle'
-tap 'homebrew/versions'
+
 brew 'git'
 brew 'gpg2'
 brew 'jq'
