@@ -44,6 +44,5 @@ export SSH_AUTH_SOCK   # enable gpg-agent for ssh
 ##### Env
 export GPG_TTY=`tty`
 
-eval "$(rbenv init -)"
-
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+export PATH="$HOME/.anyenv/bin:$PATH"
+eval "$(anyenv init -)"
