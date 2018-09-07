@@ -46,3 +46,5 @@ export GPG_TTY=`tty`
 
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
+
+eval "$(direnv hook zsh)"
