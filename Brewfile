@@ -1,6 +1,7 @@
 tap 'caskroom/cask'
 tap 'homebrew/bundle'
 
+brew 'anyenv'
 brew 'direnv'
 brew 'git'
 brew 'gpg2'
