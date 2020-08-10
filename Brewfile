@@ -9,6 +9,7 @@ brew 'reattach-to-user-namespace'
 brew 'tig'
 brew 'tmux'
 brew 'tree'
+brew 'yarn'
 
 # cask '1password'
 cask 'bettertouchtool'
