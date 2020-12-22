@@ -21,3 +21,6 @@ ln -s `pwd $0`/_zshrc ~/.zshrc
 
 unlink ~/.tmux.conf
 ln -s `pwd $0`/_tmux.conf ~/.tmux.conf
+
+unlink ~/.gnupg/gpg-agent.conf
+ln -s `pwd $0`/_gpg-agent.conf ~/.gnupg/gpg-agent.conf
