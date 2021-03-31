@@ -24,6 +24,7 @@ bindkey -e
 alias be='bundle exec'
 alias ll='ls -l'
 alias vi='vim'
+alias tf='terraform'
 
 ##### path
 path=(/usr/local/Cellar/neo4j/2.3.2/libexec/bin/ $path)
