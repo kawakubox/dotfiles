@@ -17,3 +17,5 @@
 	program = /opt/homebrew/bin/gpg
 [push]
 	default = current
+[fetch]
+	prune = true
