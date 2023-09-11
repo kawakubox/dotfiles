@@ -1,3 +1,5 @@
+#!/bin/sh
+
 unlink ~/.bashrc
 ln -s `pwd $0`/_bashrc ~/.bashrc
 
@@ -13,6 +15,9 @@ ln -s `pwd $0`/_gitconfig ~/.gitconfig
 unlink ~/.vimrc
 ln -s `pwd $0`/_vimrc ~/.vimrc
 
+unlink ~/.zprofile
+ln -s `pwd $0`/_zprofile ~/.zprofile
+
 unlink ~/.zshenv
 ln -s `pwd $0`/_zshenv ~/.zshenv
 
@@ -27,3 +32,19 @@ ln -s `pwd $0`/_gpg.conf ~/.gnupg/gpg.conf
 
 unlink ~/.gnupg/gpg-agent.conf
 ln -s `pwd $0`/_gpg-agent.conf ~/.gnupg/gpg-agent.conf
+
+# Homebrewがインストールされているかどうかを確認
+if ! which brew >/dev/null; then
+  echo "Homebrewがインストールされていません。インストールします。"
+
+  # Homebrewのインストールスクリプトを取得
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+  # Homebrewのパスを通す
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/shigefumikawakubo/.zprofile
+  source ~/.zprofile
+
+  echo "Homebrewのインストールが完了しました。"
+else
+  echo "Homebrewは既にインストールされています。"
+fi
