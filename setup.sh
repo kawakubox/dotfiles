@@ -33,6 +33,9 @@ ln -s `pwd $0`/_gpg.conf ~/.gnupg/gpg.conf
 unlink ~/.gnupg/gpg-agent.conf
 ln -s `pwd $0`/_gpg-agent.conf ~/.gnupg/gpg-agent.conf
 
+unlink ~/Brewfile
+ln -s `pwd $0`/Brewfile ~/Brewfile
+
 # Homebrewがインストールされているかどうかを確認
 if ! which brew >/dev/null; then
   echo "Homebrewがインストールされていません。インストールします。"
