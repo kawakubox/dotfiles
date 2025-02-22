@@ -1,6 +1,6 @@
 tap 'homebrew/bundle'
 
-brew 'anyenv'
+brew 'asdf'
 brew 'direnv'
 brew 'ghq'
 brew 'gnupg'

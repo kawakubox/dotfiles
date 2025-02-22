@@ -35,7 +35,6 @@ tabs -4
 ##### Env
 export GPG_TTY=`tty`
 
-export PATH="$HOME/.anyenv/bin:$PATH"
-eval "$(anyenv init -)"
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 eval "$(direnv hook zsh)"
