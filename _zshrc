@@ -22,9 +22,11 @@ bindkey -e
 
 ##### alias
 alias be='bundle exec'
+alias dc='docker compose'
+alias less='less -R'
 alias ll='ls -l'
-alias vi='vim'
 alias tf='terraform'
+alias vi='vim'
 
 ##### path
 path=(/usr/local/Cellar/neo4j/2.3.2/libexec/bin/ $path)
