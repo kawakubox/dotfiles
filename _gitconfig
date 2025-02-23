@@ -14,8 +14,12 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = /opt/homebrew/bin/gpg
+	program = gpg
 [push]
 	default = current
+[tag]
+	gpgsign = true
 [fetch]
 	prune = true
+[pull]
+	rebase = true
