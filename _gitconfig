@@ -19,6 +19,7 @@
 	linenumber = true
 [push]
 	default = current
+	autoSetupRemote = true
 [tag]
 	gpgsign = true
 [fetch]
