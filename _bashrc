@@ -1,3 +1,4 @@
 alias la='ls -a'
 alias ll='ls -l'
 alias be='bundle exec'
+alias dc='docker compose'
