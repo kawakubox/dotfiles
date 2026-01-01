@@ -5,6 +5,7 @@
 	helper = osxkeychain
 [alias]
 	b  = branch
+	bprune = !git branch --merged | grep -vE '^\\*|main|master|develop$' | xargs git branch -d
 	co = checkout
 	d  = diff
 	dc = diff --cached
