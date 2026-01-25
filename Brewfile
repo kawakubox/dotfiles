@@ -1,5 +1,3 @@
-tap 'homebrew/bundle'
-
 brew 'asdf'
 brew 'direnv'
 brew 'dnsmasq'
